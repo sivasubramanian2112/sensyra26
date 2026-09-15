@@ -1,0 +1,19 @@
+{
+  "name": "sensyra-26",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SENSYRA '26 symposium website -- Dept. of CSE (IoT), K.L.N. College of Engineering",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/copy-js.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "three": "^0.160.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}
